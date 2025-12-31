@@ -1,7 +1,7 @@
-# ABC Report for Category Management (SQL + BigQuery + Google Sheets)
+# ABC Report for Category Management (SQL + BigQuery + Google Sheets) with syntetic data
 
 ## Overview
-This project showcases a **production-ready analytical dataset** built with **BigQuery SQL** and **integrated with Google Sheets** to enable automated, scalable reporting for Category Management teams.
+This project showcases a **production-ready analytical dataset** built with **BigQuery SQL** and **integrated with Google Sheets** to enable automated, scalable reporting for Category Management teams using syntetic data.
 
 The dataset consolidates multiple operational sources into a **single source of truth at SKU level**, designed to support prioritization, performance monitoring, and optimization decisions.
 This project provides a **single, consolidated dataset** designed to support **Category Management decision-making** in e-commerce environments.
