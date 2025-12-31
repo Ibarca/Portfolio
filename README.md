@@ -1,24 +1,43 @@
-# 📊 ABC Report for Category Management (SQL + BigQuery + Google Sheets)
+# ABC Report for Category Management (SQL + BigQuery + Google Sheets)
 
 ## Overview
 This project showcases a **production-ready analytical dataset** built with **BigQuery SQL** and **integrated with Google Sheets** to enable automated, scalable reporting for Category Management teams.
 
 The dataset consolidates multiple operational sources into a **single source of truth at SKU level**, designed to support prioritization, performance monitoring, and optimization decisions.
+This project provides a **single, consolidated dataset** designed to support **Category Management decision-making** in e-commerce environments.
+
+The SQL query aggregates and enriches data from multiple operational sources (products, margins, sales, inventory, suppliers) and is **directly integrated with Google Sheets** to generate an **automated, always-up-to-date report**.
+
+The goal is to give Category Managers **one central place** to:
+- Set priorities
+- Identify optimization opportunities
+- Monitor performance across the full assortment
 
 ---
 
-## BI / Data Analyst Perspective
-From a Business Intelligence standpoint, this project focuses on:
+## Business Purpose
+This report acts as the **first level of data access** for Category Management teams.
 
-- Data modeling at SKU granularity  
-- Metric standardization across teams  
-- SQL window functions for cumulative analytics (ABC classification)  
-- Automation and self-service analytics via Google Sheets  
-- Reducing dependency on ad-hoc analysis and manual reporting  
+It answers core questions such as:
+- Which SKUs generate most of the revenue?
+- Which products belong to A / B / C classes?
+- Where do stock-outs hurt performance?
+- Which suppliers and lead times create operational risk?
+- How do margins and pricing affect category contribution?
 
-This dataset is intended as a **first analytical layer**, enabling fast exploration and decision-making before deeper analysis in specialized dashboards.
+For **deeper analysis**, more specialized dashboards (e.g. forecasting, funnel analysis, profitability deep-dives) are recommended on top of this dataset.
 
 ---
+
+## Data Sources
+The query combines data from:
+- Product master data
+- Supplier information (lead times, countries)
+- Historical sales (last 365 days)
+- Inventory history (stock availability & service level)
+- Margin structure (CM1 / CM2 / CM3)
+
+All data is unified at **SKU level**.
 
 ## Key Metrics
 - Revenue & units sold (last 365 days)
