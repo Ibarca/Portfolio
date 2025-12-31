@@ -1,4 +1,4 @@
-# 📊 Category Management Analytics Foundation (BigQuery + Google Sheets)
+# 📊 ABC Report for Category Management (SQL + BigQuery + Google Sheets)
 
 ## Overview
 This project showcases a **production-ready analytical dataset** built with **BigQuery SQL** and **integrated with Google Sheets** to enable automated, scalable reporting for Category Management teams.
