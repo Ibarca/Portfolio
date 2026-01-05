@@ -10,14 +10,14 @@ The underlying SQL query aggregates and enriches data from multiple operational 
 This reporting framework has been implemented in two different companies, where it became the cornerstone for daily performance measurement within Category Management teams. The logic has been tested, refined, and validated in real business environments, supporting thousands of SKUs and evolving alongside operational needs.
 
 Thanks to its SQL-first design, the report:
--Handles thousands of SKUs efficiently
--Supports live data refreshes configurable directly in Google Sheets (frequency and timing)
--Allows for easy extension with additional KPIs (e.g. returns, funnel metrics, delivery performance, forecasting inputs) without changing the reporting layer
+- Handles thousands of SKUs efficiently
+- Supports live data refreshes configurable directly in Google Sheets (frequency and timing)
+- Allows for easy extension with additional KPIs (e.g. returns, funnel metrics, delivery performance, forecasting inputs) without changing the reporting layer
 
 The goal of this project is to give Category Managers one central place to:
--Set priorities based on data-driven impact
--Identify optimization opportunities across assortment, pricing, and stock
--Monitor performance consistently across the full catalog
+- Set priorities based on data-driven impact
+- Identify optimization opportunities across assortment, pricing, and stock
+- Monitor performance consistently across the full catalog
 
 <img width="1357" height="770" alt="Screenshot 2026-01-05 at 13 53 02" src="https://github.com/user-attachments/assets/7428057c-f74b-4ded-a1f7-951f7ef252d9" />
 
