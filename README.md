@@ -105,6 +105,7 @@ Running these calculations entirely in BigQuery SQL ensures that heavy data proc
 As a result, the connected Google Sheets report remains fast and responsive, even when working with thousands of SKUs and live data refreshes, making it suitable for daily operational use.
 
 <img width="502" height="400" alt="Screenshot 2026-01-05 at 14 19 35" src="https://github.com/user-attachments/assets/007fccfc-3322-47de-9ab5-a8113a9a0a99" />
+<img width="450" height="94" alt="Screenshot 2026-01-05 at 14 28 30" src="https://github.com/user-attachments/assets/a3005060-33fd-4708-b8a7-0f14f735d91b" />
 
 ---
 
