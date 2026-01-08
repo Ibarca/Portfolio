@@ -50,8 +50,20 @@ All data is unified at **SKU level**.
 ---
 
 ## Data Flow Diagram
+<img width="1536" height="1024" alt="Dataflow_diagram" src="https://github.com/user-attachments/assets/a7b9c743-40ce-406e-9d5c-55c19c8bc1a8" />
+This pipeline transforms raw operational data into a single, analytics-ready dataset for SKU-level performance analysis.
 
-<img width="1106" height="257" alt="Screenshot 2025-12-31 at 10 50 59" src="https://github.com/user-attachments/assets/0227ad89-e48b-4f52-a70b-8d953e52ab64" />
+Data flows through four logical layers:
+
+- Raw Layer: Read-only source data stored in BigQuery with no business logic applied.
+
+- Semantic Layer: Enriched and aggregated datasets that add business meaning and create reusable foundations.
+
+- Analytical Layer: Centralized KPI calculations and prioritization logic to ensure consistency across reporting.
+
+- Final Output: A consolidated dataset optimized for BI tools, serving as a single source of truth for decision-making.
+
+The layered design ensures scalability, clarity, and maintainability of the analytical logic.
 
 ---
 
@@ -68,6 +80,8 @@ All data is unified at **SKU level**.
 ---
 
 ## Automation & Delivery
+<img width="1106" height="257" alt="Screenshot 2025-12-31 at 10 50 59" src="https://github.com/user-attachments/assets/0227ad89-e48b-4f52-a70b-8d953e52ab64" />
+
 - Query runs in **BigQuery**
 - Connected directly to **Google Sheets**
 - Automatic refresh
