@@ -51,8 +51,6 @@ All data is unified at **SKU level**.
 
 ## Data Flow Diagram
 
-<img width="998" height="614" alt="image" src="https://github.com/user-attachments/assets/e599e77f-0036-4eac-b651-90ae83945c77" />
-
 This pipeline transforms raw operational data into a single, analytics-ready dataset for SKU-level performance analysis.
 
 Data flows through four logical layers:
@@ -63,6 +61,11 @@ Data flows through four logical layers:
 - Final Output: A consolidated dataset optimized for BI tools, serving as a single source of truth for decision-making.
 
 The layered design ensures scalability, clarity, and maintainability of the analytical logic.
+
+
+<img width="998" height="614" alt="image" src="https://github.com/user-attachments/assets/e599e77f-0036-4eac-b651-90ae83945c77" />
+
+
 
 ---
 
