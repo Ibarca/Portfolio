@@ -81,11 +81,8 @@ The layered design ensures scalability, clarity, and maintainability of the anal
 ## Automation & Delivery
 <img width="1106" height="257" alt="Screenshot 2025-12-31 at 10 50 59" src="https://github.com/user-attachments/assets/0227ad89-e48b-4f52-a70b-8d953e52ab64" />
 
-- Query runs in **BigQuery**
-- Connected directly to **Google Sheets**
-- Automatic refresh
-- End users work with filters, pivots, and conditional logic
-- No manual data extraction required
+
+The query is executed directly in BigQuery and connected to Google Sheets as a live data source. Data is refreshed automatically, ensuring that users always work with up-to-date information. End users can interact with the data using filters, pivot tables, and conditional logic, without the need for any manual data extraction or file handling.
 
 ---
 
