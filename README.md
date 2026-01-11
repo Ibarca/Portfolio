@@ -10,7 +10,7 @@ The underlying SQL query aggregates and enriches data from multiple operational 
 This reporting framework has been implemented in two different companies, where it became the cornerstone for daily performance measurement within Category Management teams. The logic has been tested, refined, and validated in real business environments, supporting thousands of SKUs and evolving alongside operational needs.
 
 Thanks to its SQL-first design, the report:
-- Handles thousands of SKUs efficiently
+- Is able to handle thousands of SKUs efficiently
 - Supports live data refreshes configurable directly in Google Sheets (frequency and timing)
 - Allows for easy extension with additional KPIs (e.g. returns, funnel metrics, delivery performance, forecasting inputs) without changing the reporting layer
 
@@ -41,7 +41,7 @@ For **deeper analysis**, more specialized dashboards (e.g. forecasting, funnel a
 The query combines data from:
 - Product master data
 - Supplier information (lead times, countries)
-- Historical sales (last 365 days)
+- Historical sales
 - Inventory history (stock availability & service level)
 - Margin structure (CM1 / CM2 / CM3)
 
