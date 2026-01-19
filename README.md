@@ -123,6 +123,28 @@ As a result, the connected Google Sheets report remains fast and responsive, eve
 
 ---
 
+## Results & Key Findings
+
+The ABC analysis highlights a strong revenue concentration across a limited number of SKUs, confirming the relevance of prioritization in inventory planning and projection.
+
+Key findings
+
+The portfolio generates a total revenue of approximately 29.2M € over the analyzed period.
+
+- Class A SKUs make up just 17.5% of the assortment (7 SKUs) while generating 40% of total revenue (~€11.7M). These high-impact items are critical for service-level protection and inventory availability. As a top priority, product listing quality should be reviewed and, where needed, enhanced through improved visuals and content optimization.
+- Class B SKUs represent 27.5% of the assortment (11 SKUs) and contribute a further 40% of revenue (~€11.7M). These products require balanced replenishment strategies and close performance monitoring. In addition, reviewing and improving listing quality may help unlock further sales potential, as B-class SKUs often represent future top sellers.
+- Class C SKUs make up the majority of the assortment (55% or 22 SKUs) while contributing only 20% of revenue (~5.9M €), indicating long-tail behavior and higher overstock risk.
+- The analysis shows that all top-selling items—particularly the top five SKUs—are mature products, from 2020 or older. This indicates a need to expand the assortment with new product introductions. It is essential to engage with suppliers to review their latest catalogs, discuss current market trends and best sellers, and identify potential gaps in the existing assortment. This initiative should be treated as a high-priority project, as continued reliance on mature A-class products carries the risk of market saturation over time.
+- There are no major profitability issues across the assortment overall. However, the top-selling SKU (SKU 3) shows a below-average CM3 of 12%, driven by a relatively low CM1 of 31%. Given its high sales volume, this SKU represents a strong opportunity for supplier price renegotiation to improve overall margin performance.
+- The top-selling SKUs (1 and 13) are currently out of stock, resulting in significant lost revenue given their high sales importance. A root cause analysis is required to understand how this situation occurred. In parallel, upcoming inbound orders should be reviewed and, where possible, expedited to minimize further revenue impact. The same happens with the mid seller sku 6. No correlation between suppliers or categories has been found.
+- The top-selling SKU 33 shows a strong CM3 margin of 42%, indicating that purchasing prices were effectively negotiated in the past. This healthy margin provides sufficient budget flexibility to increase marketing investment and further scale sales.
+- The low-selling SKUs 11, 35, and 30 exhibit CM3 margins above 40%. However, increasing marketing spend may be ineffective if these products serve niche demand. A competitive benchmarking analysis should be conducted to assess potential overpricing. If confirmed, selectively reducing prices toward market levels could help stimulate demand while preserving healthy margins.
+  
+
+
+
+---
+
 ## Suggestions
 
 
