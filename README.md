@@ -140,7 +140,7 @@ The portfolio generates a total revenue of approximately 29.2M € over the anal
 - The top-selling SKU 33 shows a strong CM3 margin of 42%, indicating that purchasing prices were effectively negotiated in the past. This healthy margin provides sufficient budget flexibility to increase marketing investment and further scale sales.
 - The low-selling SKUs 11, 35, and 30 exhibit CM3 margins above 40%. However, increasing marketing spend may be ineffective if these products serve niche demand. A competitive benchmarking analysis should be conducted to assess potential overpricing. If confirmed, selectively reducing prices toward market levels could help stimulate demand while preserving healthy margins.
 
-As demonstrated, this report already provides sufficient insight to identify which initiatives should be pursued and in what order of priority at a glance. While certain areas—such as replenishment and detailed inventory management—require more granular data or dedicated dashboards, this report serves as a strong starting point. This is precisely what makes it effective, particularly in organizations where data literacy or data accessibility remains a challenge.
+As demonstrated, this report already provides sufficient insight to identify which initiatives should be pursued and in what order of priority at a glance. While certain areas such as replenishment and detailed inventory management require more granular data or dedicated dashboards, this report serves as a strong starting point. This is precisely what makes it effective, particularly in organizations where data literacy or data accessibility remains a challenge.
   
 
 
