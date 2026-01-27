@@ -3,11 +3,17 @@
 ## Overview 
 This project showcases a production-ready analytical dataset built entirely with BigQuery SQL and integrated with Google Sheets to enable automated, scalable reporting for Category Management teams, using synthetic data. The goal is to identify high-impact SKUs using ABC analysis based on the last 365 days of sales to support inventory prioritization and supplier negotiations. The report can be found [here](https://docs.google.com/spreadsheets/d/1dP4wzOw9nYpfIo4zUBvQJmEtER1iKRP6GJyMMoqcCr0/edit?gid=1324343453#gid=1324343453)
 
+--
+## Context
+This reporting framework has been implemented in two different companies, where it became a key tool for daily performance tracking within Category Management teams. It is especially valuable in organizations where data accessibility is limited, serving as a reliable first source of structured insights for managers. The logic has been tested, refined, and validated in real business environments, supporting thousands of SKUs and continuously evolving alongside operational needs.
+
+--
+## Logic
+
 The dataset consolidates multiple operational sources into a single source of truth at SKU level, designed to support prioritization, performance monitoring, and optimization decisions in e-commerce environments. SKU prioritization follows the Pareto (ABC) principle, allowing Category Managers to focus their efforts on the products that drive the majority of revenue impact.
 
 The underlying SQL query aggregates and enriches data from multiple operational domains : products, suppliers, margins, sales history, and inventory, and is directly connected to Google Sheets to generate an always-up-to-date report. All calculations are executed in SQL, ensuring that the Google Sheets layer remains fast, lightweight, and responsive, even with large assortments. In order to achieve this, CTEs and window functions are used.
 
-This reporting framework has been implemented in two different companies, where it became the cornerstone for daily performance measurement within Category Management teams. The logic has been tested, refined, and validated in real business environments, supporting thousands of SKUs and evolving alongside operational needs.
 
 Thanks to its SQL-first design, the report:
 - Is able to handle thousands of SKUs efficiently
