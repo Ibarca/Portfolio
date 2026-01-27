@@ -1,5 +1,5 @@
 # ABC Revenue Analysis & SKU Prioritization for Category Management (SQL + BigQuery + Google Sheets) with synthetic data
-
+------
 ## Overview 
 This project showcases a production-ready analytical dataset built entirely with BigQuery SQL and integrated with Google Sheets to enable automated, scalable reporting for Category Management teams, using synthetic data. The goal is to identify high-impact SKUs using ABC analysis based on the last 365 days of sales to support inventory prioritization and supplier negotiations. The report can be found [here](https://docs.google.com/spreadsheets/d/1dP4wzOw9nYpfIo4zUBvQJmEtER1iKRP6GJyMMoqcCr0/edit?gid=1324343453#gid=1324343453)
 
